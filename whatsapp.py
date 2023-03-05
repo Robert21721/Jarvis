@@ -21,7 +21,7 @@ def sendwhatmsg_instantly(
 
 def WhatsApp_Messages(name, message):
 
-    CONNECTION_STRING = "mongodb+srv://Meow:Fortissimo21@cluster0.lsv82vu.mongodb.net/?retryWrites=true&w=majority"
+    CONNECTION_STRING = "mongodb+srv://User:Password@cluster0.lsv82vu.mongodb.net/?retryWrites=true&w=majority"
 
     client = MongoClient(CONNECTION_STRING)
     print("Connection Successful")
